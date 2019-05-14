@@ -4,6 +4,8 @@ from .import views
 
 urlpatterns = [
     path('',views.index,name='index'),
+    path('uploadimg/',views.upload,name='upload'),
+    path('getcaption/',views.getcaption,name='getcaption'),
 
     #path('base/',views.base,name="base"),
 
