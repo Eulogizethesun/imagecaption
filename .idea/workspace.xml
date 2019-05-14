@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gan/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gan/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gan/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ganweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ganweb/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,24 +20,28 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ganweb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            <state relative-caret-position="171">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gan/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gan/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="209">
+              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +50,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gan/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="133">
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -54,16 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gan/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ganweb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="114">
+              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -71,28 +71,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ganweb/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="814" column="34" lean-forward="true" selection-start-line="814" selection-start-column="34" selection-end-line="814" selection-end-column="34" />
+            <state relative-caret-position="138">
+              <caret line="156" column="10" lean-forward="true" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
               <folding>
-                <element signature="e#1826#2741#0#HTML" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#7774#8698#0#HTML" />
-                <element signature="e#8701#10031#0#HTML" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#18147#18153#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="origin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/origin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="619" column="10" lean-forward="true" selection-start-line="619" selection-start-column="10" selection-end-line="619" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#27106#27111#0#HTML" expanded="true" />
                 <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#37610#39147#0#HTML" />
+                <element signature="n#div#15;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#39793#39799#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,17 +128,17 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="152">
+              <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="slider.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/pages/css/slider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+            <state relative-caret-position="152">
+              <caret line="117" column="37" lean-forward="true" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -141,10 +168,11 @@
       <list>
         <option value="$PROJECT_DIR$/ganweb/urls.py" />
         <option value="$PROJECT_DIR$/static/pages/css/slider.css" />
-        <option value="$PROJECT_DIR$/ganweb/settings.py" />
-        <option value="$PROJECT_DIR$/gan/views.py" />
+        <option value="$PROJECT_DIR$/templates/origin.html" />
         <option value="$PROJECT_DIR$/gan/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/ganweb/settings.py" />
+        <option value="$PROJECT_DIR$/gan/views.py" />
       </list>
     </option>
   </component>
@@ -295,6 +323,68 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gan/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gan/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gan/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/pages/css/slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15466">
+          <caret line="814" column="34" lean-forward="true" selection-start-line="814" selection-start-column="34" selection-end-line="814" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#18147#18153#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ganweb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2413">
@@ -310,7 +400,7 @@
         <state relative-caret-position="95">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -357,22 +447,12 @@
         <state relative-caret-position="15295">
           <caret line="805" column="117" lean-forward="true" selection-start-line="805" selection-start-column="117" selection-end-line="805" selection-end-column="117" />
           <folding>
-            <element signature="e#1826#2741#0#HTML" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7774#8698#0#HTML" />
-            <element signature="e#8701#10031#0#HTML" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#37610#39147#0#HTML" />
+            <element signature="e#18147#18153#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -392,7 +472,7 @@
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -428,22 +508,12 @@
         <state relative-caret-position="2318">
           <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
           <folding>
-            <element signature="e#1826#2741#0#HTML" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7774#8698#0#HTML" />
-            <element signature="e#8701#10031#0#HTML" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#37610#39147#0#HTML" />
+            <element signature="e#18147#18153#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -477,7 +547,7 @@
         <state relative-caret-position="95">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -523,22 +593,12 @@
         <state relative-caret-position="2318">
           <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
           <folding>
-            <element signature="e#1826#2741#0#HTML" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7774#8698#0#HTML" />
-            <element signature="e#8701#10031#0#HTML" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#37610#39147#0#HTML" />
+            <element signature="e#18147#18153#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -551,16 +611,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gan/models.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gan/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/pages/css/slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://F:/学习文件/前端/templatesy_779/templatesy_779/779/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -578,70 +628,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ganweb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganweb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="171">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gan/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="209">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gan/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gan/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="133">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ganweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganweb/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="814" column="34" lean-forward="true" selection-start-line="814" selection-start-column="34" selection-end-line="814" selection-end-column="34" />
+        <state relative-caret-position="138">
+          <caret line="156" column="10" lean-forward="true" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
           <folding>
-            <element signature="e#1826#2741#0#HTML" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7774#8698#0#HTML" />
-            <element signature="e#8701#10031#0#HTML" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#18147#18153#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/origin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="619" column="10" lean-forward="true" selection-start-line="619" selection-start-column="10" selection-end-line="619" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#27106#27111#0#HTML" expanded="true" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#37610#39147#0#HTML" />
+            <element signature="n#div#15;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#39793#39799#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/pages/css/slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="117" column="37" lean-forward="true" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
         </state>
       </provider>
     </entry>

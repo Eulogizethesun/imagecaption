@@ -1,3 +1,4 @@
+import os
 from django.shortcuts import render,redirect,reverse
 from .models import *
 from django.http import HttpResponse,JsonResponse,HttpResponseRedirect
@@ -9,9 +10,13 @@ def index(request):
     return render(request,'index.html',context)
 
 def upload(request):
-    context={}
-    file = request.FILES.get('file')  # 获取文件对象，包括文件名文件大小和文件内容
-    print(file)
+    obj = request.FILES.get('file')
+    print(obj.name)
+    f = open(os.path.join("media", obj.name), 'wb')
+    for line in obj.chunks():
+        f.write(line)
+    f.close()
+
     response_data = {}
     response_data['fn'] = "test"
     response_data['fu'] ="test2"
@@ -20,7 +25,11 @@ def upload(request):
 
 def getcaption(request):
     response_data = {}
-    response_data['fn'] = "test"
-    response_data['fu'] = "test2"
+    response_data['Hello'] = "hello"
+    response_data['World'] = "world"
     response_json_data = json.dumps(response_data)
     return HttpResponse(response_json_data)
+
+def origin(request):
+    context = {}
+    return render(request, 'origin.html', context)
