@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.urls import path,include
+from gan.image_captioning import image_captioning,Vocabulary
 from .import views
 
 urlpatterns = [

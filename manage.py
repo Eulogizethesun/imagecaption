@@ -3,6 +3,8 @@
 import os
 import sys
 
+from gan.image_captioning import Vocabulary
+
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ganweb.settings')
